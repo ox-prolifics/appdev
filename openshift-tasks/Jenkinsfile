@@ -24,7 +24,7 @@ podTemplate(
   def sonarQubeSvcRoute = "sonarqube.gpte-hw-cicd.svc.cluster.local:9000"
   def sonarQubePublicRoute = "http://sonarqube-gpte-hw-cicd.apps.na311.openshift.opentlc.com"
 
-  def projectGitUrl = "https://github.com/cpeters/advdev_homework_template.git"
+  def projectGitUrl = "https://github.com/ox-prolifics/appdev.git"
 
   node('skopeo-pod') {
     // Define Maven Command to point to the correct
